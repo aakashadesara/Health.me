@@ -2,6 +2,8 @@
     <head>
         <title>Health.me</title>
         <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/sandstone/bootstrap.min.css">
+        <script src="js/canvasjs.min.js"></script>
+        <script src="js/script.js"></script>
     </head>
     <body style="max-height: 100%;">
         <!-- NAVBAR -->
@@ -19,7 +21,7 @@
 
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav">
-                <li><a href="#">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li class="active"><a href="#">Patients</a></li>
               </ul>
               <ul class="nav navbar-nav navbar-right">
@@ -276,15 +278,23 @@
         </div>
 
         <!-- Right Side -->
-        <div class="col-md-6" style="height: 860px; padding-top: 40px; background-color: #F8F8F8;">
+        <div class="col-md-6" style="height: 860px; padding-top: 40px; background-color: #FFFFFF;">
             <div class="col-md-12">
-                <img src="assets/test2.jpg" class="col-md-3">
-                <div class="col-md-9">
-                    <h2> Donald F. Franklin </h2>
-                    <span style="font-size: 150%"> 10900 Rainbow Pt.
-                    <br> Epic, MI 42012</span>
+                <div class="col-md-7">
+                    <img src="assets/test2.jpg" class="col-md-6">
+                    <div class="col-md-6">
+                        <h2> Donald F. Franklin </h2>
+                        <span style="font-size: 150%"> 10900 Rainbow Pt.
+                        <br> Epic, MI 42012</span>
+                        <button type="submit" class="btn btn-info">Save</button>
+                    </div>
+                    <div id="chartContainer" class="col-md-12" style="height: 350px; font-family: Century Gothic;">
+
+                    </div>
                 </div>
             </div>
+
+
         </div>
 
 
