@@ -90,4 +90,38 @@ window.onload = function () {
         });
 
         chart.render();
+
+        var chart2 = new CanvasJS.Chart("chartContainer2",
+			{
+				title: {
+					text: "Oil Reserves and Production "
+				},
+				axisY: {
+					stripLines: [{
+						value: 143650,
+						label: "Average",
+						showOnTop: true
+					}
+					]
+				},
+
+				data: [
+				{
+					type: "bar",
+
+					dataPoints: [
+						{ x: 10, y: 267017, label: "Saudi Arabia" },
+						{ x: 20, y: 116000, label: "Russia" },
+						{ x: 30, y: 20682, label: "US" },
+						{ x: 40, y: 154580, label: "Iran" },
+						{ x: 50, y: 20350, label: "China" },
+						{ x: 60, y: 175200, label: "Canda" },
+						{ x: 70, y: 97800, label: "UAE" },
+						{ x: 80, y: 297571, label: "Venezuela" }
+					]
+				}
+				]
+			});
+
+			chart2.render();
     }
