@@ -26,16 +26,17 @@ var errorCode = error.code;
 var errorMessage = error.message;
 // ...
 });*/
-addMessage("http://i.imgur.com/mV6dWE4.png", "Rhonda Roberts", "I've been noticing that I am extremely stressed because of work and other things. Can someone help me?");
-addMessage("http://i.imgur.com/oX8kdyf.jpg", "John Jacobson", "My forehead has been stinging continuously. What do I do?");
-addMessage("http://i.imgur.com/85xUEMr.jpg", "Mohan Mihar", "I have taken many antidepressants but they aren't working...");
-addMessage("http://i.imgur.com/Pqj4uuv.png", "Julianne Einhart", "I hit my head against a pole yesterday and I have been feeling woozy lately...");
-addMessage("http://i.imgur.com/Pqj4uuv.png", "Julianne Einhart", "Can someone help me out?");
-addMessage("http://i.imgur.com/mV6dWE4.png", "Rhonda Roberts", "Now I am having trouble sleeping. I do not drink coffee or anything with caffeine. HELP!");
-addMessage("http://i.imgur.com/oX8kdyf.jpg", "John Jacobson", "Ok, so I drank a cup of coffee and now I'm really jittery. My mind cannot rest. Please help me!");
-addMessage("http://i.imgur.com/mV6dWE4.png", "Rhonda Roberts", "After a few reccomendations, I took a medication to help me sleep properly, but now I sleep too long, and cannot wake up when I need to.");
-addMessage("http://i.imgur.com/mV6dWE4.png", "Rhonda Roberts", "Any help on this sleeping issue is appreciated.");
-addMessage("http://i.imgur.com/85xUEMr.jpg", "Julianne Einhart", "Data in!");
+// addMessage("http://i.imgur.com/mV6dWE4.png", "Rhonda Roberts", "I've been noticing that I am extremely stressed because of work and other things. Can someone help me?");
+// addMessage("http://i.imgur.com/oX8kdyf.jpg", "John Jacobson", "My forehead has been stinging continuously. What do I do?");
+// addMessage("http://i.imgur.com/85xUEMr.jpg", "Mohan Mihar", "I have taken many antidepressants but they aren't working...");
+// addMessage("http://i.imgur.com/Pqj4uuv.png", "Julianne Einhart", "I hit my head against a pole yesterday and I have been feeling woozy lately...");
+// addMessage("http://i.imgur.com/Pqj4uuv.png", "Julianne Einhart", "Can someone help me out?");
+// addMessage("http://i.imgur.com/mV6dWE4.png", "Rhonda Roberts", "Now I am having trouble sleeping. I do not drink coffee or anything with caffeine. HELP!");
+// addMessage("http://i.imgur.com/oX8kdyf.jpg", "John Jacobson", "Ok, so I drank a cup of coffee and now I'm really jittery. My mind cannot rest. Please help me!");
+// addMessage("http://i.imgur.com/mV6dWE4.png", "Rhonda Roberts", "After a few reccomendations, I took a medication to help me sleep properly, but now I sleep too long, and cannot wake up when I need to.");
+// addMessage("http://i.imgur.com/mV6dWE4.png", "Rhonda Roberts", "Any help on this sleeping issue is appreciated.");
+// addMessage("http://i.imgur.com/85xUEMr.jpg", "Julianne Einhart", "Data in!");
+addMessage("http://i.imgur.com/85xUEMr.jpg", "Mohan Mihar", "My left testicle's inflamed.");
 
 // addData("MyName Jeff", "LeBrawn Jaymes", "idk", "x", "y", [[1,2],[3,4],[5,6]]);
 // addImages("MyName Jeff", "LeBrawn Jaymes", ["img1","img2","img3"]);
